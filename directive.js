@@ -2,7 +2,7 @@ const directive = {
   rem: {
     inserted(el, binding) {
       let designWidth = 375;  // 设计稿基础宽度
-      let baseSize    = 100;  // 100 -> px倍数 100px = 1rem
+      let baseSize    = 100;  // 100px = 1rem
 
       // 判断传参
       if(binding.value && binding.value.designWidth) {
